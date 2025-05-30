@@ -102,7 +102,7 @@ namespace AltCommander
             // 
             this.mainSplitContainer.Dock = System.Windows.Forms.DockStyle.Fill;
             this.mainSplitContainer.Location = new System.Drawing.Point(0, 0);
-            this.mainSplitContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.mainSplitContainer.Margin = new System.Windows.Forms.Padding(4);
             this.mainSplitContainer.Name = "mainSplitContainer";
             this.mainSplitContainer.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
@@ -124,7 +124,7 @@ namespace AltCommander
             this.topSplitContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.topSplitContainer.IsSplitterFixed = true;
             this.topSplitContainer.Location = new System.Drawing.Point(0, 0);
-            this.topSplitContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.topSplitContainer.Margin = new System.Windows.Forms.Padding(4);
             this.topSplitContainer.Name = "topSplitContainer";
             // 
             // topSplitContainer.Panel1
@@ -142,8 +142,8 @@ namespace AltCommander
             // topLeftTableLayoutPanel
             // 
             this.topLeftTableLayoutPanel.ColumnCount = 2;
-            this.topLeftTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.topLeftTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.topLeftTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47F));
+            this.topLeftTableLayoutPanel.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53F));
             this.topLeftTableLayoutPanel.Controls.Add(this.driveInfoLabel, 0, 0);
             this.topLeftTableLayoutPanel.Controls.Add(this.freeSpaceLabel, 0, 1);
             this.topLeftTableLayoutPanel.Controls.Add(this.markedFilesLabel, 0, 2);
@@ -152,7 +152,7 @@ namespace AltCommander
             this.topLeftTableLayoutPanel.Controls.Add(this.sortButton, 1, 4);
             this.topLeftTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.topLeftTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.topLeftTableLayoutPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.topLeftTableLayoutPanel.Margin = new System.Windows.Forms.Padding(4);
             this.topLeftTableLayoutPanel.Name = "topLeftTableLayoutPanel";
             this.topLeftTableLayoutPanel.RowCount = 5;
             this.topLeftTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
@@ -217,9 +217,9 @@ namespace AltCommander
             // 
             this.treeViewButton.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewButton.Location = new System.Drawing.Point(4, 130);
-            this.treeViewButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.treeViewButton.Margin = new System.Windows.Forms.Padding(4);
             this.treeViewButton.Name = "treeViewButton";
-            this.treeViewButton.Size = new System.Drawing.Size(92, 226);
+            this.treeViewButton.Size = new System.Drawing.Size(86, 226);
             this.treeViewButton.TabIndex = 4;
             this.treeViewButton.Text = "Tree";
             this.treeViewButton.UseVisualStyleBackColor = true;
@@ -228,10 +228,10 @@ namespace AltCommander
             // sortButton
             // 
             this.sortButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sortButton.Location = new System.Drawing.Point(104, 130);
-            this.sortButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sortButton.Location = new System.Drawing.Point(98, 130);
+            this.sortButton.Margin = new System.Windows.Forms.Padding(4);
             this.sortButton.Name = "sortButton";
-            this.sortButton.Size = new System.Drawing.Size(92, 226);
+            this.sortButton.Size = new System.Drawing.Size(98, 226);
             this.sortButton.TabIndex = 5;
             this.sortButton.Text = "Sort";
             this.sortButton.UseVisualStyleBackColor = true;
@@ -243,7 +243,7 @@ namespace AltCommander
             this.topRightListView.FullRowSelect = true;
             this.topRightListView.HideSelection = false;
             this.topRightListView.Location = new System.Drawing.Point(0, 0);
-            this.topRightListView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.topRightListView.Margin = new System.Windows.Forms.Padding(4);
             this.topRightListView.Name = "topRightListView";
             this.topRightListView.OwnerDraw = true;
             this.topRightListView.Size = new System.Drawing.Size(795, 360);
@@ -259,7 +259,7 @@ namespace AltCommander
             this.bottomSplitContainer.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
             this.bottomSplitContainer.IsSplitterFixed = true;
             this.bottomSplitContainer.Location = new System.Drawing.Point(0, 0);
-            this.bottomSplitContainer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bottomSplitContainer.Margin = new System.Windows.Forms.Padding(4);
             this.bottomSplitContainer.Name = "bottomSplitContainer";
             // 
             // bottomSplitContainer.Panel1
@@ -287,7 +287,7 @@ namespace AltCommander
             this.bottomLeftTableLayoutPanel.Controls.Add(this.sortButton2, 1, 4);
             this.bottomLeftTableLayoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.bottomLeftTableLayoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.bottomLeftTableLayoutPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bottomLeftTableLayoutPanel.Margin = new System.Windows.Forms.Padding(4);
             this.bottomLeftTableLayoutPanel.Name = "bottomLeftTableLayoutPanel";
             this.bottomLeftTableLayoutPanel.RowCount = 5;
             this.bottomLeftTableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
@@ -352,7 +352,7 @@ namespace AltCommander
             // 
             this.treeViewButton2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeViewButton2.Location = new System.Drawing.Point(4, 130);
-            this.treeViewButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.treeViewButton2.Margin = new System.Windows.Forms.Padding(4);
             this.treeViewButton2.Name = "treeViewButton2";
             this.treeViewButton2.Size = new System.Drawing.Size(92, 221);
             this.treeViewButton2.TabIndex = 4;
@@ -364,7 +364,7 @@ namespace AltCommander
             // 
             this.sortButton2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.sortButton2.Location = new System.Drawing.Point(104, 130);
-            this.sortButton2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sortButton2.Margin = new System.Windows.Forms.Padding(4);
             this.sortButton2.Name = "sortButton2";
             this.sortButton2.Size = new System.Drawing.Size(92, 221);
             this.sortButton2.TabIndex = 5;
@@ -378,7 +378,7 @@ namespace AltCommander
             this.bottomRightListView.FullRowSelect = true;
             this.bottomRightListView.HideSelection = false;
             this.bottomRightListView.Location = new System.Drawing.Point(0, 0);
-            this.bottomRightListView.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.bottomRightListView.Margin = new System.Windows.Forms.Padding(4);
             this.bottomRightListView.Name = "bottomRightListView";
             this.bottomRightListView.OwnerDraw = true;
             this.bottomRightListView.Size = new System.Drawing.Size(795, 355);
@@ -413,7 +413,7 @@ namespace AltCommander
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.mainSplitContainer);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AltCommanderForm";
             this.Text = "AltCommander";
             this.mainSplitContainer.Panel1.ResumeLayout(false);
