@@ -16,7 +16,7 @@ namespace AltCommander
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            // 起動するフォームクラスを MainWindow (または Form1) から AltCommanderForm に変更
+            // Start the main application window
             Application.Run(new AltCommanderForm());
         }
     }
