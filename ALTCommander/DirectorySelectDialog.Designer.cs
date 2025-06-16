@@ -1,4 +1,4 @@
-﻿namespace ALTCommander
+﻿namespace AltCommander
 {
     partial class DirectorySelectDialog
     {
