@@ -191,6 +191,8 @@ namespace AltCommander
                 string initialPathTop = "C:\\";
                 if (Directory.Exists(initialPathTop))
                 {
+                    // 表示するパスをテキストボックスへ設定してから読み込み
+                    pathTextBox.Text = initialPathTop;
                     // UIスレッドをブロックしないように非同期で開始 (結果は待たない)
                     _ = LoadDirectoryAsync(topRightListView, pathTextBox, markedFilesLabel, topLeftTableLayoutPanel);
                 }
@@ -211,6 +213,8 @@ namespace AltCommander
 
                 if (!string.IsNullOrEmpty(initialPathBottom) && Directory.Exists(initialPathBottom))
                 {
+                    // テキストボックスへパスを設定してから読み込み
+                    pathTextBox2.Text = initialPathBottom;
                     // UIスレッドをブロックしないように非同期で開始 (結果は待たない)
                     _ = LoadDirectoryAsync(bottomRightListView, pathTextBox2, markedFilesLabel2, bottomLeftTableLayoutPanel);
                 }
@@ -219,6 +223,8 @@ namespace AltCommander
                     string fallbackPath = allDrives.FirstOrDefault(d => d.IsReady && !d.Name.Equals(initialPathTop, StringComparison.OrdinalIgnoreCase))?.Name;
                     if (!string.IsNullOrEmpty(fallbackPath))
                     {
+                        // フォールバックドライブをテキストボックスへ設定してから読み込み
+                        pathTextBox2.Text = fallbackPath;
                         _ = LoadDirectoryAsync(bottomRightListView, pathTextBox2, markedFilesLabel2, bottomLeftTableLayoutPanel);
                     }
                     else // それも見つからない場合
