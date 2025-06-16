@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Test.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter" Version="3.1.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ALTCommander\ALTCommander.csproj" />
+  </ItemGroup>
+</Project>
