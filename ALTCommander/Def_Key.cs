@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ALTCommander
+namespace AltCommander
 {
     public partial class Def_Key : Form
     {
