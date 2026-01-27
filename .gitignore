@@ -198,6 +198,34 @@ PublishScripts/
 # NuGet Packages
 *.nupkg
 # NuGet Symbol Packages
+ 
+# Binary artifacts
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.obj
+*.o
+*.a
+*.lib
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.zst
+*.squashfs
+*.img
+*.db
+*.sqlite
+*.sqlite3
+*.db3
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.ico
+bzImage
 *.snupkg
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
